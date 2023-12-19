@@ -1,0 +1,4 @@
+{"level":"info","message":"\n      #############################\n      # WARNING: DEVELOPMENT MODE #\n      #############################\n      "}
+{"level":"info","message":"Server:::development running on Port: 8080"}
+{"level":"debug","message":"::1 - - [19/Dec/2023:21:13:59 +0000] \"GET / HTTP/1.1\" 200 78 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\"\n"}
+{"level":"debug","message":"::1 - - [19/Dec/2023:21:13:59 +0000] \"GET /favicon.ico HTTP/1.1\" 405 49 \"http://localhost:8080/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\"\n"}
