@@ -11,7 +11,7 @@ app.use(Express.json());
 app.use(cors());
 app.set("trust proxy", true);
 app.use(
-  morgan("combined", {
+  morgan("combined", { 
     stream: {
       write: (message) => logger.debug(message),
     },
@@ -36,13 +36,9 @@ app.get("/", (req: Request, res: Response, next: NextFunction) => {
 
   app.listen(process.env.PORT!, () => {
     if (process.env.NODE_ENV === "development") {
-      logger.info(`
-      #############################
-      # WARNING: DEVELOPMENT MODE #
-      #############################
-      `);
+      logger.info(
+        `🚀 Server:::${process.env.NODE_ENV} running on Port: ${process.env.PORT} 🚀`
+      );
     }
-    logger.info(
-      `Server:::${process.env.NODE_ENV} running on Port: ${process.env.PORT}`
-    );
   });
+  
